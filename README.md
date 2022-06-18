@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Basic Frontend
+
+This repository contains a basic template of a create-next-app that comes with the following packages out of the box:
+
+1. [NextJs](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+2. [Bootstrap](https://www.npmjs.com/package/bootstrap)
+3. [Bootstrap-Icons](https://www.npmjs.com/package/bootstrap-icons)
+4. [Sass](https://www.npmjs.com/package/sass)
+5. [Commitlint](https://www.npmjs.com/package/commitlint)
+6. [Husky](https://www/npmjs.com/package/husky)
+
+It also has custom styling that has a base color scheme and a font scheme as well.
 
 ## Getting Started
 
