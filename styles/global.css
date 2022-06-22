@@ -1,3 +1,6 @@
+/* CSS normalization */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
 /* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
