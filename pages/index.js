@@ -1,31 +1,38 @@
 // Next imports
 import Head from 'next/head'
 
+// Component imports
+import Meta from '../components/Meta'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
 export default function Home()
 {
   return (
-    <div className='container p-2'>
-      <Head>
-        <title>Next Basic Frontend</title>
-        <meta name='description' content='Custom nextjs boilerplate' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+    <>
+      <Meta
+        title='Next.js Bootstrap UI kit'
+        description='A Next.js Bootstrap UI kit'
+        keywords='Next.js, Bootstrap, UI kit, Template'
+      />
+
+      <Navbar active='Active' variant='dark' />
 
       <main>
 
-        <div className='container-fluid'>
+        <div className='container p-2'>
           <div className='row'>
             <div className='col'>
-              <p className='fs-5'>
+              <p className='fs-6'>
                 Next Basic Frontend
               </p>
             </div>
 
             <div className='col'>
-              <p>
+              <span>
                 Created by:{' '}
                 <a href='https://github.com/BMWire'>Barry Wire</a>
-              </p>
+              </span>
             </div>
           </div>
 
@@ -96,12 +103,11 @@ export default function Home()
           </dl>
 
         </div>
+
       </main>
 
-      <footer>
-        <small className='text-muted'>A simple Nextjs boilerplate</small>
-      </footer>
 
-    </div>
+      <Footer />
+    </>
   )
 }

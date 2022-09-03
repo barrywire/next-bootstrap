@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // Custom styles import
-import '../styles/global.css';
+import '../styles/main.css';
 
 // React imports
 import { useEffect } from 'react';
