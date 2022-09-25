@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Meta({ title, description, keywords })
+export default function Meta({ title })
 {
     return (
         <React.Fragment>
@@ -8,8 +8,8 @@ export default function Meta({ title, description, keywords })
             <meta charSet='utf-8' />
             <link rel='icon' href='/favicon.ico' />
             <title>{title}</title>
-            <meta name='description' content={description} />
-            <meta name='keywords' content={keywords} />
+            <meta name='description' content='A Next.js Bootstrap UI kit' />
+            <meta name='keywords' content='Next.js, Bootstrap, UI kit, Template' />
         </React.Fragment>
     )
 }

@@ -10,11 +10,7 @@ export default function Home()
 {
   return (
     <>
-      <Meta
-        title='Next.js Bootstrap UI kit'
-        description='A Next.js Bootstrap UI kit'
-        keywords='Next.js, Bootstrap, UI kit, Template'
-      />
+      <Meta title='Next.js Bootstrap UI kit' />
 
       <Navbar active='Active' variant='dark' />
 
