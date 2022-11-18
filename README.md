@@ -34,18 +34,30 @@ touch commitlint.config.js
 
 ```js
 module.exports = {
-    extends: ['@commitlint/config-conventional'],
+  extends: ['@commitlint/config-conventional'],
 };
 ```
 
 - Add a prepare step which enables husky to run the commitlint:
 
 ```bash
-npm set-script prepare "husky install"
+npm pkg set scripts.prepare "husky install"
+```
+
+- Run the prepare step:
+
+```bash
+npm run prepare
 ```
 
 - Add a pre-commit step which runs the commitlint:
 
 ```bash
 npx husky add .husky/pre-commit "npx --no-install commitlint --edit $1"
+```
+
+or
+
+```bash
+yarn husky add .husky/commit-msg "yarn commitlint --edit $1"
 ```
