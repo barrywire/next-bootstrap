@@ -3,7 +3,7 @@ export default function Footer()
     return (
         <>
             <footer>
-                <div className='container p-3'>
+                <div className='container p-3 border-top'>
                     <div className='row'>
                         <div className='col-6'>
                             <p className='fs-6'>

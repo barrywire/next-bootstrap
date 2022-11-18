@@ -5,11 +5,15 @@ export default function Header({ active, variant })
 {
     return (
         <>
-            <div className='container py-2'>
+            <div className='container py-2 border-bottom'>
                 <nav className={`navbar navbar-${ variant } bg-${ variant } justify-content-between px-2 mt-2`}>
                     <Link href='/'>
                         <a className='navbar-brand'>
                             Next.js Bootstrap
+                            <br />
+                            <span className='text-danger'>
+                                Starter Pack
+                            </span>
                         </a>
                     </Link>
 

@@ -2,33 +2,42 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 /* Font imports */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
 :root {
-	/* Color Scheme */
-	/* Font Scheme */
-	--inter: 'Inter', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
-		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
+  /* Color Scheme */
+  /* Font Scheme */
+  --inter: 'Inter Tight', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --ptsansnarrow: 'PT Sans Narrow', -apple-system, 'BlinkMacSystemFont',
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0;
-	overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
 }
 
 * {
-	box-sizing: border-box;
-	font-family: var(--inter);
-	font-size: 16px;
+  box-sizing: border-box;
+  font-family: var(--ptsansnarrow);
+  font-size: 17px;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--inter);
 }
 
 a {
-	text-decoration: none;
-}
-
-.nav-link {
-	color: lightblue;
+  text-decoration: none;
 }

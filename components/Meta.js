@@ -8,8 +8,8 @@ export default function Meta({ title })
             <meta charSet='utf-8' />
             <link rel='icon' href='/favicon.ico' />
             <title>{title}</title>
-            <meta name='description' content='A Next.js Bootstrap UI kit' />
-            <meta name='keywords' content='Next.js, Bootstrap, UI kit, Template' />
+            <meta name='description' content='A Next.js Bootstrap Quickstart pack' />
+            <meta name='keywords' content='Next.js, Bootstrap, Quickstart, Template' />
         </React.Fragment>
     )
 }
