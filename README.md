@@ -1,4 +1,4 @@
-# Next Basic Frontend
+# Next Basic Frontend - Bootstrap
 
 This repository contains a basic template of a create-next-app that comes with the following packages out of the box:
 
@@ -14,7 +14,15 @@ It also has custom styling that has a base color scheme and a font scheme as wel
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
